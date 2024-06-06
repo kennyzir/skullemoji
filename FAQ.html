@@ -15,17 +15,29 @@
             padding: 0;
             background-color: #f4f4f9;
         }
-        header, footer {
+        header {
+            display: flex;
+            align-items: center;
             background-color: orange;
             color: white;
             padding: 10px 20px;
-            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: white;
         }
         nav {
             display: flex;
             justify-content: center;
             gap: 20px;
-            padding: 10px;
+            flex-grow: 1;
         }
         nav a {
             color: white;
@@ -68,11 +80,12 @@
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Skull Emoji Logo">
         <h1>Skull Emoji Knowledge</h1>
         <nav>
-            <a href="/index.html">Home</a>
-            <a href="/emoji-combos.html">Emoji Combos</a>
-            <a href="/faq.html">FAQ</a>
+            <a href="index.html">Home</a>
+            <a href="emoji-combos.html">Emoji Combos</a>
+            <a href="faq.html">FAQ</a>
         </nav>
     </header>
     <div class="container">
@@ -122,9 +135,9 @@
             <li>You can also use the skull emoji to symbolize Halloween, horror movies, or anything else that is associated with spookiness or terror.</li>
         </ol>
 
-        <h2>Skull Emoji Similar Names</h2>
+        <h2>Skull Emoji Similar Names.</h2>
         <p>The skull emoji is sometimes referred to by different names, including:</p>
-        <ul>
+        <ol>
             <li>Skull Face Emoji</li>
             <li>Skeleton Emoji</li>
             <li>Death Emoji</li>
@@ -134,7 +147,7 @@
             <li>Scary Emoji</li>
             <li>Grim Reaper Emoji</li>
             <li>Halloween Emoji</li>
-        </ul>
+        </ol>
         <p>Note that these names are informal and not standardized, and the official name for the emoji is simply "skull". Regardless of what it's called, the skull emoji is widely recognized and understood as a symbol for death, danger, or humor.</p>
 
         <h2>Where Are You Use Skull Emoji?</h2>
@@ -149,7 +162,7 @@
         <p>In general, the skull emoji is a versatile symbol that can be used to express a range of emotions and ideas, depending on the context.</p>
     </div>
     <footer>
-        <p>&copy; 2024 Skull Emoji Knowledge. All rights reserved.</p>
+        <p>&copy; 2024 Skull Emoji. All rights reserved.</p>
         <a href="sitemap.xml">Sitemap</a>
     </footer>
 </body>

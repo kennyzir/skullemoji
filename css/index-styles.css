@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    color: #002244;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.emoji-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.emoji-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.emoji-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.emoji-item span {
+    font-size: 2rem;
+}
+
+.emoji-item button {
+    margin-top: 5px;
+    padding: 3px 7px;
+    font-size: 0.8rem;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.emoji-item button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.emoji-details {
+    display: none;
+}
+
+.emoji-details.active {
+    display: block;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
